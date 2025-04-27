@@ -1,0 +1,26 @@
+@use "../abstracts" as *;
+
+.layout {
+    &__main {
+        background-color: var(--color-main-bg);
+        min-height: 100vh;
+
+        .layout__sider {
+            background-color: var(--color-sidebar-bg);
+        }
+
+        .layout__header {
+            background-color: var(--color-header-bg);
+        }
+
+        .sider__logo {
+            text-align: center;
+            img {
+                width: 60%;
+                padding: 10px;
+                height: auto;
+            }
+
+        }
+    }
+}

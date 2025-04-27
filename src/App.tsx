@@ -1,11 +1,11 @@
 
-import './App.css'
+import "./styles/index.scss";
 
 function App() {
 
   return (
     <>
-    App inside
+      App inside
     </>
   )
 }
